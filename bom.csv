@@ -3,7 +3,6 @@
 2,"MX-Style switches","SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW11, SW12, SW13, SW14, SW15, SW16, SW17","SW_Cherry_MX_1.00u_PCB",16,"SW_Push"
 3,"EC11 Rotary encoder","SW10","RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles",1,"RotaryEncoder_Switch"
 4,"XIAO RP2040","U1","XIAO-Generic-Hybrid-14P-2.54-21X17.8MM",1,"MOUDLE-SEEEDUINO-XIAO"
-5,"MCP23017","U2","SOIC-28W_7.5x17.9mm_P1.27mm",1,"MCP23017x-x-SO"
-6,"Blank DSA keycaps (Black)",,,16,
+6,"Blank DSA keycaps",,,16,
 7,"4x M3x16 Bolt",,,4,
 8,"M3 Heatset",,,4,
