@@ -1,0 +1,5 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16";"D_DO-35_SOD27_P7.62mm_Horizontal";16;"D";;;
+2;"SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW11, SW12, SW13, SW14, SW15, SW16, SW17";"SW_Cherry_MX_1.00u_PCB";16;"SW_Push";;;
+3;"SW10";"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles";1;"RotaryEncoder_Switch";;;
+4;"U1";"XIAO-Generic-Hybrid-14P-2.54-21X17.8MM";1;"MOUDLE-SEEEDUINO-XIAO";;;
