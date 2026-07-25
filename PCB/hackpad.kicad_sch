@@ -1630,16 +1630,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 69.85) (xy 72.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d249f7c-652f-4315-a8d4-9237a6d145bb")
-	)
-	(wire
-		(pts
 			(xy 172.72 63.5) (xy 158.75 63.5)
 		)
 		(stroke
@@ -1942,31 +1932,7 @@
 			)
 		)
 	)
-	(global_label "TX"
-		(shape input)
-		(at 69.85 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ffa3544-d2ce-4e9e-97d6-272843436ec5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6877 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TX"
+	(global_label "COL5"
 		(shape input)
 		(at 104.14 81.28 0)
 		(fields_autoplaced yes)
@@ -1978,7 +1944,7 @@
 		)
 		(uuid "23acccc8-0e90-4b98-9a13-d4b39cea50f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.3023 81.28 0)
+			(at 111.9633 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1987,6 +1953,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 72.39 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2880a5a3-dfb5-4387-a77d-7f7867667a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5667 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2035,6 +2025,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 111.76 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e7fb8f2-4eec-4ab0-9be9-5234332210f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.0066 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3285,85 +3299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "401c2f8a-f035-4089-a41d-5423532e59ca")
-		(property "Reference" "#PWR04"
-			(at 110.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44ec77fe-9358-42e0-8453-3372d9b047e1")
-		)
-		(instances
-			(project "hackpad"
-				(path "/0d91ffda-be2b-4ef9-9612-49846ffd9dc9"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 163.83 46.99 0)
 		(unit 1)
@@ -4202,6 +4137,107 @@
 			(project "hackpad"
 				(path "/0d91ffda-be2b-4ef9-9612-49846ffd9dc9"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 107.95 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e882eeb-2816-46cc-9817-4a70ca2a6e3b")
+		(property "Reference" "D17"
+			(at 105.664 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 108.204 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 107.95 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cbc1cb71-8634-43ba-aa07-b6f66298e7d9")
+		)
+		(pin "1"
+			(uuid "1064b320-6948-4fc2-8771-0b1659e59a92")
+		)
+		(instances
+			(project "hackpad"
+				(path "/0d91ffda-be2b-4ef9-9612-49846ffd9dc9"
+					(reference "D17")
 					(unit 1)
 				)
 			)
