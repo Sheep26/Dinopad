@@ -1,6 +1,6 @@
-# dinopad
+# Dinopad
 
-![dinopad](../assets/Screenshot_20260727_221640.png)
+![Dinopad](../assets/Screenshot_20260727_221640.png)
 
 Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary encoder. The PCB is littered with dinosaurs, that's why it's called Dinopad.
 
