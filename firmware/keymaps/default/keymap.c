@@ -7,27 +7,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* C - Ctrl + ..., S - Shift + ...
      * P/P - Play/Pause
      * ┌───┬───┬───┬───┬───┐
-     * │CSN│CSM│F13│F14│ 0 │
+     * │CSN│CSM│F13│F14│TG1│
      * ├───┼───┼───┼───┼───┘
-     * │ 0 │ 0 │ 0 │ 0 │
+     * │F15│F16│F17│F18│
      * ├───┼───┼───┼───┤
-     * │ 0 │ 0 │ 0 │ 0 │
+     * │F19│F20│F21│F22│
      * ├───┼───┼───┼───┤
-     * │ 0 │Prv│P/P│Nxt|
+     * │F23│Prv│P/P│Nxt|
      * └───┴───┴───┴───┘
      */
     [0] = LAYOUT(
         LCS(KC_N), LCS(KC_M), KC_F13, KC_F14, TG(1),
-        KC_P0, KC_P0, KC_P0, KC_P0,
-        KC_P0, KC_P0, KC_P0, KC_P0,
-        KC_P0, KC_MPRV, KC_MPLY, KC_MNXT
+        KC_F15, KC_F16, KC_F17, KC_F18,
+        KC_F19, KC_F20, KC_F21, KC_F22,
+        KC_F23, KC_MPRV, KC_MPLY, KC_MNXT
     ),
 
     [1] = LAYOUT(
         LCS(KC_N), LCS(KC_M), KC_F13, KC_F14, TG(1),
-        KC_P0, KC_P0, KC_P0, KC_P0,
-        KC_P0, KC_P0, KC_P0, KC_P0,
-        KC_P0, KC_MPRV, KC_MPLY, KC_MNXT
+        KC_F15, KC_F16, KC_F17, KC_F18,
+        KC_F19, KC_F20, KC_F21, KC_F22,
+        KC_F23, KC_MPRV, KC_MPLY, KC_MNXT
     )
 };
 
