@@ -11,11 +11,11 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["D10", "D9", "D8", "D7", "D4"],
-        "rows": ["D1", "D0", "D3", "D2"]
+        "cols": ["GP10", "GP9", "GP8", "GP7", "GP4"],
+        "rows": ["GP1", "GP0", "GP3", "GP2"]
     },
     "processor": "RP2040",
-    "url": "",
+    "url": "https://github.com/Sheep26/Hackpad/tree/main/firmware",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
@@ -40,7 +40,7 @@
                 {"matrix": [3, 1], "x": 1, "y": 3},
                 {"matrix": [3, 2], "x": 2, "y": 3},
                 {"matrix": [3, 3], "x": 3, "y": 3},
-                {"matrix": [4, 0], "x": 4, "y": 0}
+                {"matrix": [0, 4], "x": 4, "y": 0}
             ]
         }
     }

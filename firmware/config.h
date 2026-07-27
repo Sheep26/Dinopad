@@ -1,3 +1,3 @@
-#define ENCODER_A_PINS { D5 }
-#define ENCODER_B_PINS { D4 }
+#define ENCODER_A_PINS { GP5 }
+#define ENCODER_B_PINS { GP4 }
 #define ENCODER_RESOLUTION 4
