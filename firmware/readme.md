@@ -1,8 +1,8 @@
-# orpheuspad
+# dinopad
 
-![padpad](imgur.com image replace me!)
+![dinopad](../assets/2918fca6-d229-4683-bc0a-77e65e2c99f8.PNG)
 
-*A short description of the keyboard/project*
+Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary encoder. The PCB is littered with dinosaurs, that's why it's called Dinopad.
 
 * Keyboard Maintainer: [Sheep26](https://github.com/Sheep26)
 * Hardware Supported: *The PCBs, controllers supported*

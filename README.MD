@@ -1,5 +1,5 @@
 ## Dinopad
-Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary encoder. The PCB is littered with dinosaurs, that's why it's called dinopad.
+Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary encoder. The PCB is littered with dinosaurs, that's why it's called Dinopad.
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?github=https://github.com/Sheep26/Hackpad/tree/main)
 
