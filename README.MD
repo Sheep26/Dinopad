@@ -16,6 +16,7 @@ Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary 
 ![3D Model](assets/Screenshot_20260727_221640.png)
 
 |"Id"|"Part"|"Designator"|"Footprint"|"Quantity"|"Designation"|
+|----|------|------------|-----------|----------|-------------|
 ||1|"MX-Style switches"|"SW1| SW2| SW3| SW4| SW5| SW6| SW7| SW8| SW9| SW11| SW12| SW13| SW14| SW15| SW16| SW17"|"SW_Cherry_MX_1.00u_PCB"|16|"SW_Push"|
 |2|"EC11 Rotary encoder"|"SW10"|"RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles"|1|"RotaryEncoder_Switch"|
 ||3|"XIAO RP2040"|"U1"|"XIAO-Generic-Hybrid-14P-2.54-21X17.8MM"|1|"MOUDLE-SEEEDUINO-XIAO"|
