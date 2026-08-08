@@ -15,6 +15,7 @@ Dinopad, is a small 16 key macropad, which features a diode matrix and a rotary 
 ## 3D model
 ![3D Model](assets/Screenshot_20260727_221640.png)
 
+## BOM
 |"Id"|"Part"|"Designator"|"Footprint"|"Quantity"|"Designation"|
 |----|------|------------|-----------|----------|-------------|
 |1|"MX-Style switches"|"SW1| SW2| SW3| SW4| SW5| SW6| SW7| SW8| SW9| SW11| SW12| SW13| SW14| SW15| SW16| SW17"|"SW_Cherry_MX_1.00u_PCB"|16|"SW_Push"|
